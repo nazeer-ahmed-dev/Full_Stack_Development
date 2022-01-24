@@ -1,1 +1,1 @@
-# Full_Stack_Development
+# Basic Knowledge for Internet use in Full Stack Development
