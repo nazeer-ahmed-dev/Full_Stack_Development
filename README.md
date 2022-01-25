@@ -4,7 +4,8 @@
 ## Track of Full Stack Development
 [1 - FrontEnd](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/TrackOfFullStackDevelopment/frontend.png)<br/>
 [2 - Backend](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/TrackOfFullStackDevelopment/backend.png)<br/>
-[3 - Devops](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/TrackOfFullStackDevelopment/devops.png)
+[3 - Devops](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/TrackOfFullStackDevelopment/devops.png)<br/>
+[4 - BluePrint of Full STack](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/TrackOfFullStackDevelopment/full-stack-blueprint.jpg)
 ## Tools 
 [1 - Commands for Window OS](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/WindowCommands/Commands.md) <br/>
 [2 - Git cheet sheet](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/GithubCommands/Commands.md) <br/>
