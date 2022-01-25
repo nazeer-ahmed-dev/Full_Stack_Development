@@ -2,8 +2,8 @@
 
 
 ## Track of Full Stack Development
-[1 - FrontEnd](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/TrackOfFullStackDevelopment/frontend.png)
-[2 - Backend](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/TrackOfFullStackDevelopment/backend.png)
+[1 - FrontEnd](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/TrackOfFullStackDevelopment/frontend.png)<br/>
+[2 - Backend](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/TrackOfFullStackDevelopment/backend.png)<br/>
 [3 - Devops](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/TrackOfFullStackDevelopment/devops.png)
 ## Tools 
 [1 - Commands for Window OS](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/WindowCommands/Commands.md) <br/>
