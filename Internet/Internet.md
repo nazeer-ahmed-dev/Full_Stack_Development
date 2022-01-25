@@ -34,7 +34,7 @@
      switches and communication links. ISPs provide a variety of types of network access to the end systems, including residential 
      broadband access such as cable modem or DSL, high-speed local area network access, wireless access, and 56 kbps dial-up modem 
      access. ISPs also provide Internet access to content providers, connecting Web sites directly to the Internet. The Internet is all 
-     about connecting end systems to each other, so the ISPs that provide access to end systems must also be interconnected. These 
+     about connecting end systems to each other, so the ISPs that provide access to end systems must also be interconnected. These 
      lower-tier ISPs are interconnected through national and international upper-tier ISPs such as Level 3 Communications, AT&T, 
      Sprint, and NTT. An upper-tier ISP consists of high-speed routers interconnected with high-speed fiber-optic links. Each ISP 
      network, whether upper-tier or lower-tier, is managed independently, runs the IP protocol (see below), and conforms to certain 
