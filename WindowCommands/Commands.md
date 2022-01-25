@@ -1,6 +1,6 @@
 # Commands for Window OS
 
-1 - Basic 
+## 1 - Basic 
     > mkdir folderName : to Make folder 
     > call	           : calls a batch file from another one
     > cd	           : change directory
