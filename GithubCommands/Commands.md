@@ -22,3 +22,26 @@
     > git merge : Combines remote tracking branch into current local branch
     > git push  : Uploads all local branch commits to GitHub
     > git pull  : Updates your current local working branch with all new commits from the corresponding remote branch on GitHub. git pull is a combination of git fetch and git merge
+## 7 - Make changes
+    > git log : Lists version history for the current branch
+    > git log --follow [file] : Lists version history for a file, including renames
+    > git diff [first-branch]...[second-branch]  : Shows content differences between two branches
+    > git show [commit] : Outputs metadata and content changes of the specified commit
+    > git add [file] : Snapshots the file in preparation for versioning
+    > git commit -m "[descriptive message]": Records file snapshots permanently in version history
+## 8  - Redo Commits 
+    >  git reset [commit] : Undoes all commits after [commit], preserving changes locally
+    > git reset --hard [commit] : Discards all history and changes back to the specified commit
+## 9 - Github Flow 
+![Github Flow ](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/GitHubPics/githubflow.PNG)
+## 10 - Glossary
+    > git: an open source, distributed version-control system   
+    > GitHub: a platform for hosting and collaborating on Git repositories
+    > commit: a Git object, a snapshot of your entire repository compressed into a SHA  
+    > branch: a lightweight movable pointer to a commit
+    > clone: a local version of a repository, including all commits and branches
+    > remote: a common repository on GitHub that all team member use to exchange their changes
+    > fork: a copy of a repository on GitHub owned by a different user
+    > pull request: a place to compare and discuss the differences introduced on a branch with reviews, comments, integrated tests, and more
+    > HEAD: representing your current working directory, the HEAD pointer can be moved to different branches, tags, or commits when using git checkout
+
