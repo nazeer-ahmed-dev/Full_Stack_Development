@@ -1,7 +1,7 @@
 # Basic Knowledge for Internet use in Full Stack Development
 ## How Does Internet Work ?
     > The Internet is a computer network that interconnects hundreds of millions of computing devices throughout the world. Not too long ago, these computing devices were primarily traditional desktop PCs, Linux workstations, and so-called servers that store and transmit information such as Web pages and e-mail messages. Increasingly,  however, nontraditional Internet end systems such as laptops, smartphones, tablets, TVs, gaming consoles, Web cams, automobiles, environmental sensing devices,  picture frames, and home electrical and security systems are being connected to the Internet. Indeed, the term computer network is beginning to sound a bit dated, given  the many nontraditional devices that are being hooked up to the Internet. In Internet jargon, all of these devices are called hosts or end systems. As of July 2011, there were
-    ![Some pieces of the Internet](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Internet/How_interent_work.PNG) 
+![Some pieces of the Internet](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Internet/How_interent_work.PNG) 
     nearly 850 million end systems attached to the Internet [ISC 2012], not counting
 smartphones, laptops, and other devices that are only intermittently connected to the
 Internet. Overall, more there are an estimated 2 billion Internet users [ITU 2011].
