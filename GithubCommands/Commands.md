@@ -46,7 +46,7 @@
     > HEAD: representing your current working directory, the HEAD pointer can be moved to different branches, tags, or commits when using git checkout
 
 ## 11 - Others
-    ### Rename folder/file
+### Rename folder/file
         > git mv basicApp basicapp_temp
         > git add .
         > git commit -am "temporary change"
