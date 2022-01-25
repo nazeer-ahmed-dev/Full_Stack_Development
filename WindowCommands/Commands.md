@@ -40,7 +40,7 @@
     > tftp	           : transfer files to a TFTP server
     > tracert	       : trace routes similar to patchping
 
-## 3 = Files
+## 3 - Files
     > attrib           : display file attributes
     > comp	           : compare file contents
     > compact	       : display/change file compression
@@ -57,3 +57,23 @@
     > rmdir / rd	   : delete directory
     > tree	           : display folder structure graphically
     > type	           : display content of text files
+## 4 - Media
+    > chkdsk	       : check volumes
+    > chkntfs	       : display/change volume check at startup
+    > defrag	       : defragment media    
+    > diskpart	       : volume management
+    > driverquery	   : display installed devices and their properties
+    > format    	   : format volumes
+    > label	           : change volume name
+    > mode	           : configure interfaces/devices
+    > mountvol         : assign/delete drive mountpoints
+    > verify	       : monitoring whether volumes are written correctly
+    > vol	           : show volume description and serial numbers of the HDDs
+
+## 5 - Miscellaneous
+    > for	           : for loop
+    > gpresult	       : display group policies
+    > gpupdate	       : update group policies
+    > perfmon	       : start performance monitor
+    > prompt	       : change command prompt
+    > reg	           : add/read/import/export registry entries
