@@ -47,7 +47,7 @@
 
 ## 11 - Others
 ### Rename folder/file
-        > git mv basicApp basicapp_temp
+        > git mv [Folder/file name] [new name]
         > git add .
-        > git commit -am "temporary change"
+        > git commit -am "Rename"
         > git push origin master
