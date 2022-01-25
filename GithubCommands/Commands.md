@@ -51,3 +51,9 @@
         > git add .
         > git commit -am "Rename"
         > git push origin master
+### Deploy your website on Github
+        > step 1 : open your repository
+        > step 2 : Go to setting
+        > step 3 : Github pages
+        > step 4 : Generate your url
+        > done !
