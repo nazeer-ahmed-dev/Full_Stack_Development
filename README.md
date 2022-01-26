@@ -19,6 +19,6 @@
 [1 - Basic knowledge of Internet](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Internet/Internet.md) 
 ### Html
 [1 - Basic Html](https://nazeerahmedofficial.github.io/Full_Stack_Development/Html/Basic.html)<br/>
-[2 - Html Cheat-sheet](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Html/HTML-CHEAT-SHEET.png)
-[3 - Semantic Html](https://nazeerahmedofficial.github.io/Full_Stack_Development/Html/SemanticHtml.html)
-[4 - Form and Validation](https://nazeerahmedofficial.github.io/Full_Stack_Development/Html/formvalidation.html)
+[2 - Html Cheat-sheet](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Html/HTML-CHEAT-SHEET.png)<br/>
+[3 - Semantic Html](https://nazeerahmedofficial.github.io/Full_Stack_Development/Html/SemanticHtml.html)<br/>
+[4 - Form and Validation](https://nazeerahmedofficial.github.io/Full_Stack_Development/Html/formvalidation.html)<br/>
