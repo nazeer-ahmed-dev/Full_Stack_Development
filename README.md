@@ -24,3 +24,6 @@
 [4 - Form and Validation](https://nazeerahmedofficial.github.io/Full_Stack_Development/Html/formvalidation.html)<br/>
 [5 - Html Best Practice](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Html/GoodPracitse.md)<br/>
 [6 - Html Basic SEO](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Html/HtmlSeo.md)
+
+### CSS
+[1 - Basic CSS](https://nazeerahmedofficial.github.io/Full_Stack_Development/CSS/BasicCss.html)
