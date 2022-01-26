@@ -1,0 +1,38 @@
+.Header_Float
+{
+    background-color: darkcyan;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color:white;
+}
+.Section_Float
+{
+    float: left;
+    margin-top: 0.5%;
+    width: 100px;
+   
+   
+
+}
+.Section_Float > div
+{
+    background-color: darkmagenta;
+    size: 40%;
+    font-size: medium;
+    margin: 10%;
+    color: wheat;
+    font-size: x-large;
+  
+}
+.Aside_Float 
+{
+  margin-left:10%;  
+}
+.Footer_Float
+{
+    background-color: violet;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
