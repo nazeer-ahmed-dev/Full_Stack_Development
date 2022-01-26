@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & Validation </title>
+    <style>
+        .bg{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+            <center><div class="bg">
+                    <div class="form-contianer">
+                            <div class="form-header">
+                                    <p>
+                                        Sign Up
+                                    </p>
+                                    <form>
+                                        <table class="form-table">
+                                            <tr>
+                                                <td>
+                                                    Username :
+                                                </td>
+                                                <td>
+                                                    <input type="text" maxlength="5" minlength="2" required/>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Password :
+                                                </td>
+                                                <td>
+                                                    <input type="text" pattern="(?=.*d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must match with pattern"/>
+                                                </td>
+                                                <tr>
+                                                    <td>
+                                                        Date :
+                                                    </td>
+                                                    <td>
+                                                        <input type="date" max="2020-01-01" min="2019-12-01"/>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Zip :
+                                                    </td>
+                                                    <td>
+                                                        <input type="number"max="2022" min="2010"/>
+                                                    </td>
+                                                </tr>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <input type="submit" value="Submit"/>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </form>
+                            </div>
+                            
+                    </div>
+            </div></center>
+            <h2>Validation Checking</h2>
+            <ul>
+                <li>User input length Checking</li>
+                <li>min and max value</li>
+                <li>required field</li>
+                <li>Number and email feild</li>
+                <li>Pattern Validation</li>
+            </ul>
+</body>
+</html>
