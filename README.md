@@ -20,3 +20,5 @@
 ### Html
 [1 - Basic Html](https://nazeerahmedofficial.github.io/Full_Stack_Development/Html/Basic.html)<br/>
 [2 - Html Cheat-sheet](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Html/HTML-CHEAT-SHEET.png)
+[3 - Semantic Html](https://github.com/nazeerahmedofficial/Full_Stack_Development/Html/SemanticHtml.html)
+[4 - Form and Validation](https://github.com/nazeerahmedofficial/Full_Stack_Development/Html/formvalidation.html)
