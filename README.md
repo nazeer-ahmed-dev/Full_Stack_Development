@@ -26,4 +26,5 @@
 [6 - Html Basic SEO](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Html/HtmlSeo.md)
 
 ### CSS
-[1 - Basic CSS](https://nazeerahmedofficial.github.io/Full_Stack_Development/CSS/BasicCss.html)
+[1 - Basic CSS](https://nazeerahmedofficial.github.io/Full_Stack_Development/CSS/BasicCss.html)<br/>
+[2 - Layouts](https://nazeerahmedofficial.github.io/Full_Stack_Development/CSS/Layouts.html)
