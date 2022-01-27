@@ -11,4 +11,3 @@
     > use consistent file naming style
     > use Comments
     > use Entities
-    > 
