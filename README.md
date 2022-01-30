@@ -31,5 +31,3 @@
 [2 - Layouts](https://nazeerahmedofficial.github.io/Full_Stack_Development/CSS/Layouts.html)
 
 ### JavaScript
-[1 - Basic Practice](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Javascript/Javascript.js)<br/>
-[2 - Demo-site](https://github.com/nazeerahmedofficial/Full_Stack_Development/tree/main/Javascript/js-demo)
