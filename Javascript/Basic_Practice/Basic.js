@@ -7,5 +7,21 @@
     5-this keyword
     6-Spread operator
 
-
  */
+// Switch Statment
+ 
+    // example of of 
+
+    let product = 2
+    switch(product)
+    {
+        case 1 :
+            console.log("product 1");
+            break;
+        case 2 : 
+            console.log("Product 2")
+            break;
+        default:
+            console.log("nothing")
+            break;
+    }
