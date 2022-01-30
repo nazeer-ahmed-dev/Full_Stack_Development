@@ -21,7 +21,7 @@
         - Assignment operator(=,+=,-=,%=,/=,*=,**=)
         - Comparison
             1) > Greater than   2) < less than  3) >= Greater than or equall
-            <b>4) == Equal in value    5) === Equall in value and type</b>
+            **4) == Equal in value    5) === Equall in value and type**
         - 'use strict' functionality
     4-Exceptions , error types , data types
     5-this keyword
