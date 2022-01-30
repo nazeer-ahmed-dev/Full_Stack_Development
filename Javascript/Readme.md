@@ -1,7 +1,7 @@
 # Topics Covered 
 
 ## 1 - JavaScript Syntax and Operators
- Topics:
+Topics:
     1-Switch Statement
         - strict comparision
         - block level issue 
