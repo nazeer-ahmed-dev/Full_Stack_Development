@@ -1,10 +1,10 @@
 # Topics Covered 
 
 ## 1 - JavaScript Syntax and Operators
-Topics:
-    1-Switch Statement
-        - strict comparision
-        - block level issue 
+#### Topics:
+###    1-Switch Statement
+###        - strict comparision
+###        - block level issue 
     2-for/in and for/of
         - for/in : > iterate over element of object (properties and methods)
                    > return key (property / method) name 
