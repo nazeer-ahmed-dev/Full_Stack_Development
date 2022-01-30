@@ -31,4 +31,5 @@
 [2 - Layouts](https://nazeerahmedofficial.github.io/Full_Stack_Development/CSS/Layouts.html)
 
 ### JavaScript
-[1-Basic Practise](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Javascript/Basic_Practice/Basic.js)
+[1 - Topic List](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Javascript/Readme.md)
+[2 - Basic Practise](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Javascript/Basic_Practice/Basic.js)
