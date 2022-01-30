@@ -9,9 +9,8 @@
 
  */
 // Switch Statment
- 
-    // example of of 
-
+function Swith_statment()
+{
     let product = 2
     switch(product)
     {
@@ -25,3 +24,40 @@
             console.log("nothing")
             break;
     }
+// Switch inside Switch
+
+    let check = true
+    switch(check)
+    {
+        case true:
+                switch(check)
+                {
+
+                    case true:
+                        console.log("done")
+                    break;
+                }
+        break;
+            
+    }
+// mulitple cases
+
+    let color = "pink"
+
+    switch (color) {
+        case "pink":
+        case "red":
+            console.log("pink")
+            break;
+        default:
+            console.log("defualt")
+            break;
+    }
+}
+
+
+
+
+
+// calling Swith_statment
+Swith_statment();
