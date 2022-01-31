@@ -61,11 +61,10 @@ function Swith_statment()
             break;
         default:
             console.log("defualt")
+            
             break;
     }
-}
-
-// block level issue in switch
+    // block level issue in switch
     // In case statement same type of variable issue add bracket to make it local scope
 let a = 2
 switch (a) {
@@ -80,6 +79,9 @@ switch (a) {
         console.log("every thing is fine!!!")
         break;
 }
+}
+
+
 
 // Topic 2 : For in and for off
 function for_In_and_for_off()
@@ -197,8 +199,81 @@ function use_strict()
 
      // delete result : cant use this 
 }
+function logica_operator_and_short_circuit()
+{
+
+    let result 
+    let number = 10
+    if( result = number > 5 )
+    {
+            console.log("Price is grater than 5 " + result)
+    }
+
+    // 
+
+    color = null
+    console.log("color = null"+Boolean(color))
+    color = ""
+    console.log("color = ''"+Boolean(color))
+    color = undefined
+    console.log("color = undefined "+Boolean(color))
+    
+
+    // logical operator
+
+    let value = 100
+    if(value > 30 && value < 150)
+    {
+        console.log("Right!!!!")
+    }
+    else if(value > 100)
+    {
+        console.log("Wrong value")
+    }
+
+    // short Circuit
+    //1- short-circuit &&
+    output = A("Red") && B(9); // this function will give error becuase B(9) never runs
+    function A(val)
+    {
+            return value==="Red";
+    }   
+    function B(val)
+    {
+            return val < 10;
+    }
+    console.log(output)
+    //2-Short-curcuit ||
+    output = A("Red") || B(22);
+    console.log(output)
+    
+    
+}
+function Exceptions_handling()
+{
+    // try catch
+
+    let result ;
+     try
+     {
+        console.log("An error will occur.")
+        result=  x/10;
+        console.log("this line will never run")
+     }
+     catch(error)
+     {
+
+        console.log("In catch block "+ error.message);
+     }
+     finally
+     {
+         console.log("In the finally block !!!")
+     }
+}
 
 //Swith_statment();
 //for_In_and_for_off();
-Math_and_comparsion_operator()
-use_strict()
+//Math_and_comparsion_operator()
+//use_strict()
+//logica_operator_and_short_circuit()
+Exceptions_handling()
