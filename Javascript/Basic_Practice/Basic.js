@@ -313,6 +313,24 @@ function Exceptions_handling()
     }
 
 }
+function Variable_and_datatypes()
+{
+    var x = 12345; 
+    console.log(typeof x) // number
+    x = 'string'; 
+    console.log(typeof x) // string
+    x = { key: 'value' };
+    console.log(typeof x) // object
+
+    // constructor samples
+    let intrDate = new Date();
+    let Stringval =  new String();
+
+    console.log(intrDate.constructor.toString())
+
+    console.log((intrDate instanceof Date).toString())
+}
+
 
 
 
@@ -321,4 +339,5 @@ function Exceptions_handling()
 //Math_and_comparsion_operator()
 //use_strict()
 //logica_operator_and_short_circuit()
-Exceptions_handling()
+//Exceptions_handling()
+Variable_and_datatypes()
