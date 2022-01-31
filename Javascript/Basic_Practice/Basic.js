@@ -252,8 +252,9 @@ function logica_operator_and_short_circuit()
 function Exceptions_handling()
 {
     // try catch
-
-    let result ;
+    function attempt()
+    {
+        let result ;
      try
      {
         console.log("An error will occur.")
@@ -263,13 +264,57 @@ function Exceptions_handling()
      catch(error)
      {
 
-        console.log("In catch block "+ error.message);
+        handleError(error)
+        throw{
+            "message": "custom error defined by user"+error.message,
+            "name":"Custom error"
+        };
      }
      finally
      {
          console.log("In the finally block !!!")
      }
+
+    }
+    
+    // Custom Exception
+    function throwError()
+    {
+        try{
+            attempt();
+            
+        }
+        catch(error)
+        {
+            console.log(error.message+" - Error TYpe : "+ error.name)
+
+        }
+    }
+    throwError()
+
+    // detetiong error and its type
+
+    function handleError(error)
+    {
+        switch (error.name) {
+            case 'ReferenceError':
+                console.log("Ref error:  "+error.message);
+                break;
+            case 'RangeError':
+                console.log("Range error:  "+error.message);
+                break;
+            case 'TypeError':
+                console.log("Type error:  "+error.message);
+                break;    
+            default:
+                console.log("Error Type: "+error.name+" Messageg "+error.message);
+                break;
+        }
+    }
+
 }
+
+
 
 //Swith_statment();
 //for_In_and_for_off();
