@@ -165,7 +165,19 @@ function for_In_and_for_off()
             console.log(i)
         }
 }
+function Math_and_comparsion_operator()
+{
+    //Arthimatic operations
+    let a = 2
+    let b = 3
+    console.log(2+3)
+    console.log(2/3)
+    console.log(2**3)
+    console.log(2*3)
+}
 // calling Swith_statment
 Swith_statment();
 //calling for_In_and_for_off
 for_In_and_for_off();
+//Math_and_comparsion_operator
+Math_and_comparsion_operator()
