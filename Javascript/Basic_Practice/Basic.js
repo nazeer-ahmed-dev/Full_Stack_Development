@@ -174,10 +174,31 @@ function Math_and_comparsion_operator()
     console.log(2/3)
     console.log(2**3)
     console.log(2*3)
+    // working with == and ===
+    let number1=2
+    var number2=3
+    if(number1===number2)
+    {
+        console.log("both number and types are equall")
+    } 
+
+    // Ternary Operator 
+    let value = "Nazeer"
+
+    let result = value = "Nazeer" ? "Your are right" : " OH! your are wrong !!"; 
+    console.log(result)
 }
-// calling Swith_statment
-Swith_statment();
-//calling for_In_and_for_off
-for_In_and_for_off();
-//Math_and_comparsion_operator
+function use_strict()
+{
+
+    'use strict' // if your comment this without defining datatype it will work 
+     let result = 10
+     console.log(result)
+
+     // delete result : cant use this 
+}
+
+//Swith_statment();
+//for_In_and_for_off();
 Math_and_comparsion_operator()
+use_strict()
