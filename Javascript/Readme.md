@@ -58,8 +58,48 @@
             15) And (&&)
             16) or (||)
             17) Assignment
-    4-Exceptions , error types , data types
-    5-this keyword
-    6-Spread operator
+    5-Exceptions Handling
+        - Handling Exception
+            > try--catch
+            > finally statement
+        - Throw a custom exception
+            > can throw your own custom error
+            > create an object with at least two properties  : "message" and "name"
+        - check for type of error
+            1) Reference Error
+            2) RangeError
+            3) TypeError
+            4) URIError
+            5) Syntax Error
+            6) EvalError* : backwards compatibility only: its's not use more
+    6-Variable and Dataypes
+        - Datatypes
+            > Primitives
+                1) Booleaan
+                2) null
+                3) undefined
+                4) number
+                5) string
+            > Object 
+                6) new Array
+                7) new Error
+                8) new Function : a block of code
+                9) new Object : a wrapper around any type
+                10) new RegExp
+                11) new Bolean
+                12) new Number 
+                13) new String
+        - Determine typeof operator
+            > typeof operator
+                - Returns the data type of the passsed in expression
+                - A String value is returned such as 'string','number','object'
+            > costructor property or object datatypes
+                - All object data types inherit from object (not primtives)
+                - object has constructor property
+                - Returns a reference to the object itself
+            > instanceof operator
+                - test if inherits from object(not a primitive)
+    6-this keyword
+    7-Spread operator
 
 
