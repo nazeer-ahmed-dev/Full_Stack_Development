@@ -118,5 +118,10 @@
         - constructor function
 
     7-Spread operator
+        - expand any 'iterable' such as string or array into array
+        - for passing multiple arguments to method
+        - uses the ellipsis symbol (...)
+        - always on the righ-side of an equall sign
+        - IE and Edge do not support spread operator
 
 
