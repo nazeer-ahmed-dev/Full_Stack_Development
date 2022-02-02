@@ -125,3 +125,15 @@
         - IE and Edge do not support spread operator
 
 
+
+## 2 - Function
+    - Function
+        - reusable code
+    - Arguments
+    - Function and block scope 
+        - the variable declared with the var keyword or within function declartions DO Not have block scope
+    - Immediately Invoked function Expression (IIFE)
+    - Closures
+    - Arrow Function
+        > ES6
+        > Lemda Expression
