@@ -33,3 +33,4 @@
 ### JavaScript
 [1 - Topic List](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Javascript/Readme.md)<br/>
 [2 - Basic Practise](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Javascript/Basic_Practice/Basic.js)
+[3 - Function](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Javascript/Basic_Practice/function.js)
