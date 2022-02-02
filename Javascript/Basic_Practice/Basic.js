@@ -266,6 +266,7 @@ function Exceptions_handling()
 
         handleError(error)
         throw{
+
             "message": "custom error defined by user"+error.message,
             "name":"Custom error"
         };
@@ -330,7 +331,40 @@ function Variable_and_datatypes()
 
     console.log((intrDate instanceof Date).toString())
 }
+function this_functionscope_call_apply()
+{
+    //'use strict'
+    console.log(this.toString()) // [window global]
 
+    // person object literal : comma seprated list of item
+    let product={
+        "productId" : 24,
+        "item " : 2,
+        "name " : "LUX soap",
+        "price " : 100,
+        calculatePrice : function (){
+            return (this["item "]-this["price "]);
+        }
+    }
+    let prod2 = {
+        "item ": 3,
+        "price ": 50
+    }
+
+    // this as parameter
+    function this_as_parameter(ct1)
+    {
+            console.log(ct1.toString())
+    }
+    this_as_parameter(this)
+   // call and apply
+   console.log(product.calculatePrice.call(product))
+   console.log(product.calculatePrice.call(prod2))
+   
+   console.log(product.calculatePrice.apply(product))
+   console.log(product.calculatePrice.apply(prod2))
+   
+}  
 
 
 
@@ -340,4 +374,5 @@ function Variable_and_datatypes()
 //use_strict()
 //logica_operator_and_short_circuit()
 //Exceptions_handling()
-Variable_and_datatypes()
+//Variable_and_datatypes()
+this_functionscope_call_apply()
