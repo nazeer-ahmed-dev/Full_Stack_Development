@@ -365,6 +365,62 @@ function this_functionscope_call_apply()
    console.log(product.calculatePrice.apply(prod2))
    
 }  
+function spread_operator()
+{       
+    // converting string to array
+    let productName = "banana";
+    let value =  [...productName];
+    console.log(value)
+   
+    // copy an array , normally we used slice(index) to copy an array
+    let arr = [1,2,3]
+    let ar2 = [...arr]
+    console.log(ar2)
+    
+    ar2.push(2)
+    arr[0] = 99
+    console.log(arr)
+    console.log(ar2)
+
+    // spread operator with object
+    let product=[{
+        "productId" : 24,
+        "item " : 2,
+        "name " : "LUX soap",
+        "price " : 100,
+        calculatePrice : function (){
+            return (this["item "]-this["price "]);
+        }
+    }]
+
+    let product2 = [...product] // Its pointing where the object is actually
+
+    product2[0].name = "CHNAGE"
+    console.log(product)
+    console.log(product2)
+
+    // concatination of two array using spread
+    let total_product = [...arr, ...ar2]
+    console.log(total_product.length)
+
+    // shallow copy with object
+    let product3={
+        "productId" : 24,
+        "item " : 2,
+        "name " : "LUX soap",
+        "price " : 100,
+        calculatePrice : function (){
+            return (this["item "]-this["price "]);
+        }
+    }
+    let prd = {...product3}
+    prd.name="ohh"
+
+    console.log(product3.name)
+    console.log(prd.name)
+    
+
+}
 
 
 
@@ -375,4 +431,5 @@ function this_functionscope_call_apply()
 //logica_operator_and_short_circuit()
 //Exceptions_handling()
 //Variable_and_datatypes()
-this_functionscope_call_apply()
+//this_functionscope_call_apply()
+spread_operator()
