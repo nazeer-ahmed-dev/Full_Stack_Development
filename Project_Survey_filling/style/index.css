@@ -1,0 +1,30 @@
+#main
+{
+    position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 500px;
+  height: 250px;
+  background-color:white;
+  border-radius: 3px;
+}
+#main_for_user{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 500px;
+  height: 530px;
+  background-color:white;
+  border-radius: 3px;
+}
+#main_page_button{
+    width: 200px;
+    height: 200px;
+    font-size: x-large;
+}
