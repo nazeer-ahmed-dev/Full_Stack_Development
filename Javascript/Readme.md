@@ -99,7 +99,24 @@
                 - Returns a reference to the object itself
             > instanceof operator
                 - test if inherits from object(not a primitive)
-    6-this keyword
+    6- Topics 
+        - this
+            > refer to an object in which current code is running
+            > sometimes the object can be changed
+
+            > Different Value based on execuation context
+            > in a method owner object
+            > in an function it refer to global object
+            > In an event : element that received the event
+            > call() / apply methods refers to object passed in 
+            > 'use strict' also affect 'this'
+        - how to change this
+        - Global and function scope
+        - event Handler
+        - object literal 
+        - call() / apply() methods
+        - constructor function
+
     7-Spread operator
 
 
