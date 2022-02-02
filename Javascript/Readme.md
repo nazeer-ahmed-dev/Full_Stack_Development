@@ -137,3 +137,6 @@
     - Arrow Function
         > ES6
         > Lemda Expression
+        > side effect
+            - behavior of this keyword
+            - No arguments object
