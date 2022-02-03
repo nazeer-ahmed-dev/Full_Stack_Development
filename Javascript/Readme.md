@@ -167,3 +167,17 @@
     - properties are bound :  exported are not just value they're pointer or binding to the properties
     - export are static : can't change later at run time
     - one module per file : request on at a time for HTTP (request)
+## 4 - Object , Prototype and Classes
+    - Object 
+        > 3 ways  : object literal , constructor function and classes
+        > object Equality
+        > Merging propertieds
+        > Immutability
+        > Object.is() : Less common, Like === except for a few mathematical difference
+        > Object.create() : also way to create object
+    - object properties
+        >  value
+        > Writable
+        > enumerable
+        > configurable
+        > get and set
