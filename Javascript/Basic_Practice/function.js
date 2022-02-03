@@ -95,8 +95,111 @@ let message = {
     },
     arroFunction : ()=>console.log('hi'+this.name)
 }
-message.regularFunction()
-message.arroFunction()
+// message.regularFunction()
+// message.arroFunction()
+
+// function context
+let gret = {}
+gret.say = function()
+{
+    console.log('hi')
+    console.log(this) // no longer to global window
+}
+
+//gret.say()
+
+
+// call method
+let person1 = {name:"nazeer", age:21}
+let person2 = {name:"umiar", age:21}
+
+let call_function = function()
+{
+    console.log('Hi '+this.name)
+}
+call_function.call(person1)
+call_function.call(person2)
+
+// apply method and call method
+
+function introduction(name,profession)
+{
+    console.log("My name is "+name+" and iam a "+profession)
+}
+
+introduction("nazeer","Full stack Developer")
+
+introduction.apply(undefined,["abc","def","aaa"])
+introduction.call(undefined,"abc","def","aaa")
+
+//bind function
+let person1_1 ={
+
+    name:"nazeer",
+    getName:function()
+    {
+        return this.name;
+    }
+};
+
+let person2_1={
+    name : "Ahmed"
+}
+
+let getNameCopy = person1_1.getName.bind(person2_1)
+console.log(getNameCopy())
+
+
+// built-in Function
+//1: eval : accept string as a input
+let x=1
+let y=2
+let z="abc"
+console.log(eval('x+y+1'))  // output : 4
+console.log(eval('x+y+z'))  // output : 3abc
+
+//2- parseInt
+console.log(parseInt('F',16)) // return the value of F base 16
+console.log(parseInt('15',10)) // 15
+console.log(parseInt('hi',10)) // NaN 
+
+//3- escape : return the hexa-decimal encoding
+console.log(escape('text')) // text
+
+
+// Default Parameters
+function syName(name="nazeer")
+{
+    console.log("Hello "+name)
+
+}
+syName()
+syName("ahmed")
+
+//rest parameters
+let sayNmae = function greet(...name)
+{
+    name.forEach(name => console.log('Hi  '+name))
+}
+greet("nazeer","ahmed")
+
+// spread operator
+function _spread(person1,person2)
+{
+    console.log("hello "+person1+" and "+person2)
+
+}
+let name = ["nazeer","ahmed"]
+_spread(...name)
+
+
+
+
+
+
+
+
+
 
 //_arguments()
 //argument_object(1,2,3,4)
@@ -110,4 +213,4 @@ message.arroFunction()
 // ////////////
 // greet()
 // console.log(fun_2_arrow("nazeer"))
-console.log(sum(1,2))
+//console.log(sum(1,2))
