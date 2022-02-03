@@ -155,3 +155,15 @@
     - Rest paramets and spread operator
         > Default Parameter
         > Rest Parametes ...
+    
+
+## 3 - Module
+    - importing and exporting keyword
+    - Encapsulate code
+    - control access
+    - reference ts own depedencies
+
+    - Modules are singleton : need to import as well as export
+    - properties are bound :  exported are not just value they're pointer or binding to the properties
+    - export are static : can't change later at run time
+    - one module per file : request on at a time for HTTP (request)
