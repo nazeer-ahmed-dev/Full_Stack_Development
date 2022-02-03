@@ -35,4 +35,5 @@
 [2 - JavaScript Syntax and Operators](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Javascript/Basic_Practice/Basic.js)<br/>
 [3 - Function](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Javascript/Basic_Practice/function.js)<br/>
 [4 - Module](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Javascript/Basic_Practice/Module_1)<br/>
-[5 - Object](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Javascript/Object_Prototye_Classes/Object_1.js)
+[5 - Object](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Javascript/Object_Prototye_Classes/Object_1.js)<br/>
+[6 - Prototype](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Javascript/Object_Prototye_Classes/Prototypes_and_Inheritance.js)
