@@ -140,3 +140,18 @@
         > side effect
             - behavior of this keyword
             - No arguments object
+    - Function Context
+    - Call method
+        > use the call method when individual arguments of varying type
+    - apply method
+        > array input with similiar elements 
+    - bind method
+        > if we would like to make a copy of a function and then change the value of this then we use bind
+    - Built-in function  
+        > Eval
+        > ParseInt
+        > escape
+        > enscape
+    - Rest paramets and spread operator
+        > Default Parameter
+        > Rest Parametes ...
