@@ -113,3 +113,27 @@ console.log(product)
 console.log(product2)
 
 // Rest Operator
+function add(...nums)
+{
+    console.log(nums)
+}
+add(1,2,3,4)
+
+// arrow function
+let func_1 = () =>{
+    return "Hello , Your are Learning ES6"
+}
+console.log(func_1());
+
+let func_2 = (a,b)=>{
+    return a+b;
+}
+console.log(func_2(2,3))
+
+const func_3 = () => 'Hi , this is ES6+'
+
+//Default params
+const leadSinger = (artist = "nazeer") =>{
+    console.log(`${artist} Chris Martinis the lead singer of cold play`)
+}
+leadSinger("ahmed");
