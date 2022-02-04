@@ -13,3 +13,13 @@
     console.log(fullName_1)
 
 // Destructuring Object
+const player = {
+    name : 'Nazeer ahmed',
+    address : {
+        city : 'mithi',
+        street : 'abc'
+    },
+    qulification : 'Bachelor'
+}
+const {name,qulification,address:{city}} = player
+console.log(`${name} has done ${qulification} and he live in  ${city}`)
