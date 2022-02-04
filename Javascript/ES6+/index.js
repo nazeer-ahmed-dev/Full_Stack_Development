@@ -137,3 +137,31 @@ const leadSinger = (artist = "nazeer") =>{
     console.log(`${artist} Chris Martinis the lead singer of cold play`)
 }
 leadSinger("ahmed");
+
+// includes()
+let numArray = [1,2,3,4];
+console.log(numArray.indexOf(0)) // return -1
+console.log(numArray.includes(0)) // return boolean
+console.log(numArray.includes(2)) // return boolean
+
+//let and const , let : is the structure version of var which uses the block scope
+if(true)
+{
+    var example = 5
+    let example1 = 19
+}
+console.log(example) // its accessible here
+//console.log(example1) // refernce error
+
+const ex = 10;
+//ex = 20  :can change
+console.log(ex)
+
+const arr = []
+arr.push(2)
+console.log(arr)
+
+// padStart() and padEnd()
+let pad_string = 'Nazeer '
+console.log(pad_string.padStart(10,'a'))
+console.log(pad_string.padEnd(10,'a'))
