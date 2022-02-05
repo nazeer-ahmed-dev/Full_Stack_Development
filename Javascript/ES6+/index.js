@@ -165,3 +165,43 @@ console.log(arr)
 let pad_string = 'Nazeer '
 console.log(pad_string.padStart(10,'a'))
 console.log(pad_string.padEnd(10,'a'))
+
+// TRailing Commas
+
+function add_1(parm1,)
+{
+    const  example = {
+        name : 'nazeer',
+    }
+    console.log(example)
+}
+add_1(2)
+
+// Promises : use for network request try to fetch data from API, also use for async function
+
+const buyFlightTicket=()=>{
+    return new Promise((reslove,reject)=>{
+        setTimeout(()=>{    // becasue it may take time data come from network
+            const error = false; // if error is true then payment fail  
+
+            if(error){
+                reject("sorry payment is not successful!!!")
+            }
+            else{
+                reslove("Done!!")
+            }
+        },3000)
+
+    }) // result store in buyFlightTicket
+}
+
+// 3- possible outcome
+    //1-promise in pending
+    //2-successfull
+    //3-rejected
+
+buyFlightTicket().then(
+    (success)=>console.log(success)
+).catch(
+    (error)=>console.log(error)
+); // if resolve then run then else catch
