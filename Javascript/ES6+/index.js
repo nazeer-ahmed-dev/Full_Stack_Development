@@ -188,7 +188,7 @@ const buyFlightTicket=()=>{
                 reject("sorry payment is not successful!!!")
             }
             else{
-                reslove("Done!!")
+                reslove("Done!!") // your can return any thing like object , array ,etc
             }
         },3000)
 
@@ -205,3 +205,14 @@ buyFlightTicket().then(
 ).catch(
     (error)=>console.log(error)
 ); // if resolve then run then else catch
+
+// working fetch 
+fetch('http://jsonplaceholder.typicode.com/comments',{
+    method :'POST',
+    body:JSON.stringify({
+        // postId :1,
+        // name :'Dylan',
+        // email : "done",
+        // body:"dope"
+    })
+}).then(res => res.json()).then(data=>console.log(data))
