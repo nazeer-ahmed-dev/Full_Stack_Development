@@ -206,13 +206,40 @@ buyFlightTicket().then(
     (error)=>console.log(error)
 ); // if resolve then run then else catch
 
-// working fetch 
-fetch('http://jsonplaceholder.typicode.com/comments',{
-    method :'POST',
-    body:JSON.stringify({
-        // postId :1,
-        // name :'Dylan',
-        // email : "done",
-        // body:"dope"
+// // working fetch 
+// fetch('http://jsonplaceholder.typicode.com/comments',{
+//     method :'POST',
+//     body:JSON.stringify({
+//         // postId :1,
+//         // name :'Dylan',
+//         // email : "done",
+//         // body:"dope"
+//     })
+// }).then(res => res.json()).then(data=>console.log(data))
+
+
+// Async and Await
+const photos = []
+
+async function photoUpload()
+{
+    let uploadphoto  = new Promise((resolve , reject)=>{
+            setTimeout(()=>{
+                photos.push('uploaded');
+                resolve("done!")
+            },3000)
     })
-}).then(res => res.json()).then(data=>console.log(data))
+
+    let result = await uploadphoto;
+    console.log(result)
+    console.log(photos.length)
+}       
+photoUpload()
+
+//sets
+const exampleSet = new Set([1,1,1,1,1,1]);
+
+exampleSet.add(4)
+exampleSet.add(4).add(44)
+console.log(exampleSet.has(4))
+console.log(exampleSet.size)
