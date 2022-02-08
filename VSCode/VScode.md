@@ -7,3 +7,5 @@
     > npm script runner : to run npm command on VSCode terminal
 ## Commands 
     > code . : to open Folder in vs Code Directly
+    > npm start : to run live
+    > Ctrl + E : to search any file
