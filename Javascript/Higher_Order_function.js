@@ -69,3 +69,45 @@ const testMap = companies.map((comp)=>{
         return `${comp.name} [${comp.start} - ${comp.end}]`
 })
 console.log(testMap)
+
+// example
+const ageSqure = ages.map(age=>Math.sqrt(age)).map(age=> age*2);
+console.log(ageSqure)
+
+// sort
+
+const sortedCompanies = companies.sort((c1,c2)=>{
+    if(c1.start > c2.start)
+    {
+        return 1;
+    }
+    else{
+        return -1
+    }
+})
+
+//shorter form
+const sortedCompanies1 = companies.sort((a,b)=>(a.start > b.start ? 1 : -1))
+console.log(sortedCompanies1)
+
+// sorting age 
+const sortAge = ages.sort((a,b)=> a - b);
+console.log(sortAge)
+
+// reduce vs for
+let ageSum =0
+for(let i=0;i<ages.length;i++)
+{
+    ageSum +=ages[i];
+}
+console.log(ageSum)
+
+const ageSum1 = ages.reduce((total,age)=>{
+    return total+age;
+},0)
+
+// get Total year for all companies
+const total_year = companies.reduce((total,comp)=>{
+        return total  + (comp.end-comp.start)
+},0)
+console.log(total_year)
