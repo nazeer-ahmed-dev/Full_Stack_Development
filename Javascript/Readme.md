@@ -181,3 +181,14 @@
         > enumerable
         > configurable
         > get and set
+        > every function in javascript has a prototype property
+    - Prototype
+        > Function Prototype : a function's prototype is the object instanace that will become the prototye for all objects created using this function as a constructor
+        > object Prototype : An object's prototype is the object instance from which the object is inherited
+    - Built-in object
+        -regx
+## 5 - DOM Manipulation
+    - DOM : Document Object model
+    - https://www.w3schools.com/js/js_htmldom.asp
+## 5 - Promises and Async Programming
+    - 
