@@ -111,3 +111,4 @@ const total_year = companies.reduce((total,comp)=>{
         return total  + (comp.end-comp.start)
 },0)
 console.log(total_year)
+//done
