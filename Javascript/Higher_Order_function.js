@@ -45,8 +45,27 @@ console.log(canDrive1)
 // filter on companies : retial comp
 
 const retialComp = companies.filter((company1)=>{
-    if(company1.category='retail')
+    if(company1.category=='retail')
     {
             return true;
     }
 })
+console.log(retialComp)
+// another way
+const retialComp1 = companies.filter(company=> company.category=='retail');
+console.log(retialComp1)
+
+//get 80s company
+const eightiesComp = companies.filter(comp => (comp.start>=1980 && comp.start<1990))
+
+
+//Map
+// create array of company name
+const CompName = companies.map(comp=>{return comp.name})
+console.log(CompName)
+
+// company Names with year
+const testMap = companies.map((comp)=>{
+        return `${comp.name} [${comp.start} - ${comp.end}]`
+})
+console.log(testMap)
