@@ -8,6 +8,16 @@
 </head>
 <body>
 
-    <script src="./index.js"></script>
+    <script src="./index.js">
+
+        // async / await / Fetch
+async function fetchUser()
+{
+    const res = await fetch('http://jsonplaceholder.typicode.com/users');
+    const data = await res.json();
+    console.log(data)
+}
+fetchUser()
+    </script>
 </body>
 </html>

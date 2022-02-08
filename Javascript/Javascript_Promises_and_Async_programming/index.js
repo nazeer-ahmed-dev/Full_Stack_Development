@@ -53,6 +53,13 @@ function _getData()
     },1000)
   
 }
+// simple
+function ceratePost_0(post1)
+{
+    setTimeout(()=>{
+        post.push(post1);
+    },2000)
+}
 // making _getData as callback function
 function ceratePost(post1,callback)
 {
@@ -97,3 +104,13 @@ const promise3 = new Promise((reslove,reject)=>{
 
 Promise.all([promise1,promise2,promise3]).then((value)=>{
     console.log(value)}).then(erro=>console.log(erro))
+
+
+// Async and await
+async function init()
+{
+    await ceratePost_0({title:"zero",body:"this is zero post"});
+    _getData()
+}
+init()
+
