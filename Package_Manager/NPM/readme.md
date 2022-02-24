@@ -1,5 +1,4 @@
 ### NPM : Node Package Manager
-
 -> Module vs Packege
     - Module : A single javascript file that has some reasonable functionality
     - Packege : is a Directory with one or more module and packege.json file which has MetaData about the packege
