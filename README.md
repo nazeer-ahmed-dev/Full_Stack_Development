@@ -46,6 +46,7 @@
 
 ### CRUD PROJECT
 [BackEnd_Api_Crud](https://github.com/nazeerahmedofficial/Full_Stack_Development/tree/main/BackEnd/Build_API_In_MEN)
+[FrontEnd_Api_Consume](https://github.com/nazeerahmedofficial/Full_Stack_Development/tree/main/CRUD_Project_API/frontend)
 
 ### Package Manager
 [NPM](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Package_Manager/NPM/readme.md)<br/>
