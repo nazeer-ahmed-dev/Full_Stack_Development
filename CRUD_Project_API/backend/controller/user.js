@@ -8,7 +8,7 @@ export const createUser = (req,res)=>{
     const userWid = {...user,id:userid}
      users.push(userWid)
  
-     res.send("User added")
+     console.log("done")
  }
 
  export const getUser = (req,res)=>{
