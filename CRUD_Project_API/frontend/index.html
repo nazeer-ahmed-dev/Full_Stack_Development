@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        // fetching the data
+     function data(){
+        
+        fetch('http://localhost:5000/users').then(res =>res.json()).then(data=> console.log(data))
+    }
+   // data()
+    // searching by id
+    function search()
+    {
+        fetch('http://localhost:5000/users/'+'e7181ece-f615-4fb6-a806-42f7825cd662').then(res => res.json()).then(data=>console.log(data))
+    }
+    //search()
+    //Delete
+    function Delete()
+    {
+        fetch('http://localhost:5000/users/e481ac16-aeaa-40a8-9e72-bd5737389e97',{
+            method: 'DELETE'
+        })
+    }
+   // Delete()
+    function post()
+    {
+        fetch('http://localhost:5000/users',{
+            method:'POST',
+            body:JSON.stringify(
+                {
+                    firstName:"nazeer",
+                    lastName:"ahmed",
+                    age:20 
+                }
+            ),
+            headers:{
+                "Content-type":"application/json; charset=UTF-8"
+            }
+        }).then(res=>res.json()).then(data=>console.log(data))
+    }
+    post()
+    </script>
+    
+</body>
+</html>
