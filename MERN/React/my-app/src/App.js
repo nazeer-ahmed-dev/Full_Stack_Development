@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useState } from 'react';
 import { styled, useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
@@ -17,6 +18,8 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
+import ToAdd from './started/increment';
+import Timer from './started/timer'
 
 const drawerWidth = 240;
 
@@ -68,6 +71,7 @@ const DrawerHeader = styled('div')(({ theme }) => ({
 export default function PersistentDrawerLeft() {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
+  const [value , setValue] = useState("")
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -116,8 +120,10 @@ export default function PersistentDrawerLeft() {
         </DrawerHeader>
         <Divider />
         <List>
-          {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-            <ListItem button key={text}>
+          {['increment', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
+            <ListItem button key={text} onClick={()=>{
+              setValue(text)
+          }} >
               <ListItemIcon>
                 {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
               </ListItemIcon>
@@ -140,7 +146,9 @@ export default function PersistentDrawerLeft() {
       <Main open={open}>
         <DrawerHeader />
         <Typography paragraph>
-          This React Practice!!!!!!!
+           <ToAdd></ToAdd>
+           <Timer></Timer>
+            <p>{value}</p>
         </Typography>
        
       </Main>
