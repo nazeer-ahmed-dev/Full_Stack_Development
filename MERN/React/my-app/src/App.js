@@ -19,7 +19,8 @@ import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import ToAdd from './started/increment';
-import Timer from './started/timer'
+import Timer from './started/timer';
+import App from './started/cardapp'
 
 const drawerWidth = 240;
 
@@ -149,6 +150,7 @@ export default function PersistentDrawerLeft() {
            <ToAdd></ToAdd>
            <Timer></Timer>
             <p>{value}</p>
+            <App title="The Github Card App "></App>
         </Typography>
        
       </Main>
