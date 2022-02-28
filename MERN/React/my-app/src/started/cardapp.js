@@ -1,4 +1,5 @@
 import React from "react"
+import axios from 'axios';
 const testData = [
 {name: "Nazeer", avatar_url: "https://avatars0.githubusercontent.com/u/810438?v=4", company: "@facebook"},
 {name: "Haseeb", avatar_url: "https://avatars2.githubusercontent.com/u/6820?v=4", company: "Humu"},
@@ -18,12 +19,18 @@ export default class App extends React.Component
     state = {
         profi : testData,
     }
+    addNew = (profileData) =>{
+        console.log('App',profileData);
+        this.setState(prevState=>({
+            profi: [...prevState.profi , profileData],
+        }))
+    }
     render()
     {
         return (
         <div>
              <div className="header">{this.props.title}</div>
-             <Form/>
+             <Form onSubmit={this.addNew}/>
              <Cardlist prof={this.state.profi}/>
 
         </div>
@@ -53,21 +60,31 @@ const Cardlist = (props) =>{
    
    return <div>
        {
-           props.prof.map((value)=>{ return <Card {...value}></Card>})
+           props.prof.map((value)=>{ return <Card key={value.id} {...value}></Card>})
        }
-        <Card {...testData[0]} />
-        <Card {...testData[1]} />
-        <Card {...testData[2]} />
         
     </div>
 }
 class Form extends React.Component
 {
+    state = {
+        userName : '',
+    }
+   // userInput = React.createRef();
+    handleFunction = async (event) => {
+            event.preventDefault();
+            const resp = await  axios.get(`https://api.github.com/users/${this.state.userName}`);
+            
+        this.props.onSubmit(resp.data)
+        this.setState({userName:''})
+         //       this.userInput.current.value
+            
+    }
     render()
     {
         return(
-            <form action="">
-                <input type="text" placeholder="Username"/>
+            <form onClick={this.handleFunction}>
+                <input type="text" placeholder="Username"  value = {this.state.userName} onChange={event => this.setState({userName:event.target.value})}/>
                 <button>Add Card</button>
             </form>
         )
