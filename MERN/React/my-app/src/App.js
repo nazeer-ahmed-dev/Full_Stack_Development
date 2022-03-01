@@ -20,7 +20,8 @@ import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import ToAdd from './started/increment';
 import Timer from './started/timer';
-import App from './started/cardapp'
+import App from './started/cardapp';
+import Empbeding_expression_into_jsx from './Docs/jsx'
 
 const drawerWidth = 240;
 
@@ -121,7 +122,7 @@ export default function PersistentDrawerLeft() {
         </DrawerHeader>
         <Divider />
         <List>
-          {['increment', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
+          {['JSX', 'Component & props', 'Send email', 'Drafts'].map((text, index) => (
             <ListItem button key={text} onClick={()=>{
               setValue(text)
           }} >
@@ -147,10 +148,11 @@ export default function PersistentDrawerLeft() {
       <Main open={open}>
         <DrawerHeader />
         <Typography paragraph>
-           <ToAdd></ToAdd>
+           {/* <ToAdd></ToAdd>
            <Timer></Timer>
             <p>{value}</p>
-            <App title="The Github Card App "></App>
+            <App title="The Github Card App "></App> */}
+            <Empbeding_expression_into_jsx> </Empbeding_expression_into_jsx>
         </Typography>
        
       </Main>
