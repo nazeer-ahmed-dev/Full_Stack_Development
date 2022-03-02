@@ -52,4 +52,4 @@
 [NPM](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Package_Manager/NPM/readme.md)<br/>
 
 ### MERN
-[MERN-1](https://nazeerahmedofficial.github.io/MERN/)<br/>
+[React](https://nazeerahmedofficial.github.io/MERN/)<br/>
