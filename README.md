@@ -44,12 +44,16 @@
 [11 - Higher Order Function](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Javascript/Higher_Order_function.js)<br/>
 [12 - Callback , Promises & (Async and await)](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Javascript/Javascript_Promises_and_Async_programming/index.js)<br/>
 
-### CRUD PROJECT
-[BackEnd_Api_Crud](https://github.com/nazeerahmedofficial/Full_Stack_Development/tree/main/CRUD_Project_API/backend)<br/>
-[FrontEnd_Api_Consume](https://github.com/nazeerahmedofficial/Full_Stack_Development/tree/main/CRUD_Project_API/frontend)
+
 
 ### Package Manager
 [NPM](https://github.com/nazeerahmedofficial/Full_Stack_Development/blob/main/Package_Manager/NPM/readme.md)<br/>
 
 ### MERN
+#### React
 [React](https://nazeerahmedofficial.github.io/MERN/)<br/>
+[React Architecture](https://nazeerahmedofficial.github.io/MERN/)<br/>
+
+#### BackEnd
+[BackEnd_Api_Crud](https://github.com/nazeerahmedofficial/Full_Stack_Development/tree/main/CRUD_Project_API/backend)<br/>
+[FrontEnd_Api_Consume](https://github.com/nazeerahmedofficial/Full_Stack_Development/tree/main/CRUD_Project_API/frontend)
