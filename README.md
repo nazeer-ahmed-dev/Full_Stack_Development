@@ -51,7 +51,7 @@
 
 ### MERN
 #### React
-[React](https://nazeerahmedofficial.github.io/MERN/)<br/>
+[React+Redux](https://nazeerahmedofficial.github.io/MERN/)<br/>
 [React Architecture](https://nazeerahmedofficial.github.io/MERN/)<br/>
 
 #### BackEnd
